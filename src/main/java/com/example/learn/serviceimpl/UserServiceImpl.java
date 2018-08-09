@@ -8,7 +8,7 @@ import java.util.UUID;
 @Service
 public class UserServiceImpl implements UserService{
     @Override
-    public User getUser(String id) {
+    public User getUser(Integer id) {
         return new User(1, "one","yu","a123");
     }
 }
